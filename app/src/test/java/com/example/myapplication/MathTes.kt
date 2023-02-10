@@ -10,4 +10,9 @@ class MathTes {
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
     }
+
+    @Test
+    fun multi() {
+        assertEquals(2, 1 + 1)
+    }
 }
